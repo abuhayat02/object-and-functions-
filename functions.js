@@ -23,4 +23,13 @@ let lastBancer = (array) => Math.max(...array);
 
 let badBoy = lastBancer(rollNumbers);
 
-console.log(`hey idiot 😡, you can't learn ? roll : ${badBoy}`)
+console.log(`hey idiot 😡, you can't learn ? roll : ${badBoy}`);
+
+// disstrucring in objects 
+
+let {name , age , occupation : job} = person ;
+
+let info = `my name ${name} and age ${age} my job ${job}` ;
+
+console.log(info)
+
