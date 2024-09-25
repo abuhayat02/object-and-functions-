@@ -14,3 +14,13 @@ let getName = (object) => object.name ;
 let myName = getName(person);
 
 console.log(myName)
+
+    // spread opartor 
+
+let rollNumbers = [34,35,5,56,34,23,23,22,36];
+
+let lastBancer = (array) => Math.max(...array);
+
+let badBoy = lastBancer(rollNumbers);
+
+console.log(`hey idiot 😡, you can't learn ? roll : ${badBoy}`)
